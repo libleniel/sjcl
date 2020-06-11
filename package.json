@@ -20,14 +20,14 @@
     "jsdoc": "jsdoc -c jsdoc.conf.json",
     "lint": "eslint . || true"
   },
-  "browser": {
-    "crypto": false
-  },
   "engines": {
     "node": "*"
+  },
+  "react-native": {
+    "crypto": "react-native-crypto"
   },
   "devDependencies": {
     "eslint": "^2.11.1",
     "jsdoc": "3.4.0"
-  }
+  },
 }
